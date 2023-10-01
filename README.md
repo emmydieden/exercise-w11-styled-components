@@ -22,7 +22,7 @@ npm i && code . && npm run dev
 
 ### Looking for some hints?
 
-## Installing styled-components
+### Installing styled-components
 
 1.  Installation Command: To add `styled-components` to your project, use one of the following commands:
 
@@ -43,3 +43,7 @@ npm i && code . && npm run dev
     javascriptCopy code
 
     `import styled from 'styled-components';`
+
+## Landing Page Demo
+
+ <img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
