@@ -24,7 +24,7 @@ npm i && code . && npm run dev
 
 ### Fonts Used
 
-- Satoshi - It's pre-installed for you.
+- Raleway - It's pre-installed for you.
 
 ### Installing styled-components
 
