@@ -20,7 +20,11 @@ The command below is a combination of installing dependencies, opening up the pr
 npm i && code . && npm run dev
 ```
 
-### Looking for some hints?
+## Looking for some hints?
+
+### Fonts Used
+
+- Satoshi - It's pre-installed for you.
 
 ### Installing styled-components
 
