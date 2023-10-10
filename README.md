@@ -1,12 +1,16 @@
 <h1 align="center">
   <a href="">
-    <img src="/src/assets/style-comps.svg" alt="Boiler Plate">
+    <img src="/src/assets/poem-useLayoutEffect.svg" alt="Boiler Plate">
   </a>
 </h1>
 
-# React Design Replication Exercise with Styled Components
+# Poetry in Motion - A Themed Poem Display with useLayoutEffect
 
-For this week's practice, you will replicate a given design using React and style it using Styled Components. Try to match the design closely using Styled Components for smooth styling.
+This week, let's practice using the `useLayoutEffect` hook in our `App.jsx` file.
+
+We will play with two themes, "light" and "dark", and each theme will have its own poem. Your job is to make a button that lets users switch between these themes. Changing the theme will also change the poem and the look of the page. This exercise will help you get better at choosing what to show based on the state, using React hooks to manage state, dealing with events, and using `useLayoutEffect` to handle side effects within the DOM layout :).
+
+Let’s have fun coding!
 
 ## Getting Started with the Project
 
@@ -22,32 +26,30 @@ npm i && code . && npm run dev
 
 ## Looking for some hints?
 
-### Fonts Used
+#### 1\. Initializing `useState` for 'theme'
 
-- Raleway - It's pre-installed for you.
+- You can see that the reactive variable using the `useState` hook is already provided within the `App.jsx` file.
 
-### Installing styled-components
+#### 2\. Utilizing `useLayoutEffect` Hook
 
-1.  Installation Command: To add `styled-components` to your project, use one of the following commands:
+- Implement the `useLayoutEffect` hook to manage the application of themes without causing flickering in the UI.
+- Inside the `useLayoutEffect`, set the `className` of the `body` element to the current theme. This will allow you to apply global styles based on the theme.
+- Ensure that the effect runs whenever the `theme` state changes by adding `theme` to the dependency array.
 
-    - If you're using `npm`:
+#### 3\. Crafting the `toggleTheme` Function
 
-      bashCopy code
+- Define a function named `toggleTheme` that will be responsible for switching between the "light" and "dark" themes.
+- Within `toggleTheme`, use the setter function from `useState` to update the `theme` state based on its previous value. If it was "light", change it to "dark" and vice versa.
+- Consider using a function within the setter to ensure you're toggling based on the accurate previous state.
 
-      `npm install styled-components`
+#### 4\. Conditionally Rendering Elements in JSX
 
-    - If you're using `yarn`:
+- In your JSX return statement, utilize curly braces `{}` to embed JavaScript expressions.
+- Use ternary operators or logical AND `&&` operators to conditionally render elements or apply styles based on the `theme` state.
+- For displaying the poems, consider using a condition to check the current theme and render the corresponding poem accordingly.
+- To dynamically apply styles (like changing the color of text based on the theme), you might use inline styling with a condition to determine the style object.
 
-      bashCopy code
+#### 5\. Checking out the styles.css file
 
-      `yarn add styled-components`
-
-2.  Usage in Project: After installation, you can start using it in your React components by importing:
-
-    javascriptCopy code
-
-    `import styled from 'styled-components';`
-
-## Landing Page Demo
-
- <img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
+- body.light and body.dark are selectors that target the body element when it has the class of light or dark, respectively.
+- background-color and color properties within each class define the background and text colors for the respective themes.
