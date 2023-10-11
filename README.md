@@ -32,22 +32,23 @@ npm i && code . && npm run dev
 
     - If you're using `npm`:
 
-      bashCopy code
-
+    ```bash
       `npm install styled-components`
+    ```
 
     - If you're using `yarn`:
 
-      bashCopy code
-
-      `yarn add styled-components`
+      ```bash
+         `yarn add styled-components`
+      ```
 
 2.  Usage in Project: After installation, you can start using it in your React components by importing:
 
-    javascriptCopy code
-
-    `import styled from 'styled-components';`
+```bash
+  import styled from 'styled-components;
+```
 
 ## Landing Page Demo
 
- <img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
+<img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
+```
