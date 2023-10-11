@@ -1,18 +1,12 @@
 <h1 align="center">
   <a href="">
-    <img src="/src/assets/poem-useLayoutEffect.svg" alt="Boiler Plate">
+    <img src="/src/assets/style-comps.svg" alt="Boiler Plate">
   </a>
 </h1>
 
-# Poetry in Motion - A Themed Poem Display with useLayoutEffect
+# React Design Replication Exercise with Styled Components
 
-In this week's team session, you will practice the use of the advanced hook useLayoutEffect in conjunction with the useState hook. You will engage in applying the principles and techniques we've absorbed over the week, working on the App.jsx file so no need to create individual components in this exercise 😉.
-
-The app.jsx content dynamically alters its display and style based on the current theme state.
-
-We will play with two themes, "light" and "dark", and each theme will have its own poem. Your job is to make a button that lets users switch between these themes. Changing the theme will also change the poem and the look of the page. This exercise will help you get better at choosing what to show based on the state, using React hooks to manage state, dealing with events, and using `useLayoutEffect` to handle side effects within the DOM layout :).
-
-Let’s have fun coding!
+For this week's practice, you will replicate a given design using React and style it using Styled Components. Try to match the design closely using Styled Components for smooth styling.
 
 ## Getting Started with the Project
 
@@ -28,30 +22,32 @@ npm i && code . && npm run dev
 
 ## Looking for some hints?
 
-#### 1\. Initializing `useState` for 'theme'
+### Fonts Used
 
-- You can see that the reactive variable using the `useState` hook is already provided within the `App.jsx` file.
+- Raleway - It's pre-installed for you.
 
-#### 2\. Utilizing `useLayoutEffect` Hook
+### Installing styled-components
 
-- Implement the `useLayoutEffect` hook to manage the application of themes without causing flickering in the UI.
-- Inside the `useLayoutEffect`, set the `className` of the `body` element to the current theme. This will allow you to apply global styles based on the theme.
-- Ensure that the effect runs whenever the `theme` state changes by adding `theme` to the dependency array.
+1.  Installation Command: To add `styled-components` to your project, use one of the following commands:
 
-#### 3\. Crafting the `toggleTheme` Function
+    - If you're using `npm`:
 
-- Define a function named `toggleTheme` that will be responsible for switching between the "light" and "dark" themes.
-- Within `toggleTheme`, use the setter function from `useState` to update the `theme` state based on its previous value. If it was "light", change it to "dark" and vice versa.
-- Consider using a function within the setter to ensure you're toggling based on the accurate previous state.
+      bashCopy code
 
-#### 4\. Conditionally Rendering Elements in JSX
+      `npm install styled-components`
 
-- In your JSX return statement, utilize curly braces `{}` to embed JavaScript expressions.
-- Use ternary operators or logical AND `&&` operators to conditionally render elements or apply styles based on the `theme` state.
-- For displaying the poems, consider using a condition to check the current theme and render the corresponding poem accordingly.
-- To dynamically apply styles (like changing the color of text based on the theme), you might use inline styling with a condition to determine the style object.
+    - If you're using `yarn`:
 
-#### 5\. Checking out the styles.css file
+      bashCopy code
 
-- body.light and body.dark are selectors that target the body element when it has the class of light or dark, respectively.
-- background-color and color properties within each class define the background and text colors for the respective themes.
+      `yarn add styled-components`
+
+2.  Usage in Project: After installation, you can start using it in your React components by importing:
+
+    javascriptCopy code
+
+    `import styled from 'styled-components';`
+
+## Landing Page Demo
+
+ <img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
