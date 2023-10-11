@@ -45,4 +45,3 @@ import styled from 'styled-components;
 ## Landing Page Demo
 
 <img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
-```
