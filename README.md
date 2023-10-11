@@ -33,13 +33,7 @@ npm i && code . && npm run dev
     - If you're using `npm`:
 
     ```bash
-      `npm install styled-components`
-    ```
-
-    - If you're using `yarn`:
-
-    ```bash
-       `yarn add styled-components`
+      npm install styled-components
     ```
 
 2.  Usage in Project: After installation, you can start using it in your React components by importing:
