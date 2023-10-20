@@ -46,4 +46,6 @@ import styled from 'styled-components;
 
 [Working Demo of the website](https://technigo-news-site-grid-demo.netlify.app/)
 
+If you choose to opt out from using the inspector on your browser you can check the styles being applied on the working demo [here](https://github.com/Technigo/exercise-w11-styled-components/blob/main/src/finished-styles-regular-css.css)
+
 <img src="/src/assets/ra-technigo-screenshot.png" alt="Boiler Plate">
