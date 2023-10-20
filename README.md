@@ -44,6 +44,6 @@ import styled from 'styled-components;
 
 ## Landing Page Demo
 
-[Working Demo of the website]{https://technigo-news-site-grid-demo.netlify.app/}
+[Working Demo of the website](https://technigo-news-site-grid-demo.netlify.app/)
 
-<img src="/src/assets/ra-technigo-screenshot" alt="Boiler Plate">
+<img src="/src/assets/ra-technigo-screenshot.png" alt="Boiler Plate">
