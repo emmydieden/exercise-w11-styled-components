@@ -44,4 +44,6 @@ import styled from 'styled-components;
 
 ## Landing Page Demo
 
-<img src="/src/assets/doggie-bowls-landing.png" alt="Boiler Plate">
+[Working Demo of the website]{https://technigo-news-site-grid-demo.netlify.app/}
+
+<img src="/src/assets/ra-technigo-screenshot" alt="Boiler Plate">
