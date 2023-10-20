@@ -48,4 +48,6 @@ import styled from 'styled-components;
 
 If you choose to opt out from using the inspector on your browser you can check the styles being applied on the working demo [here](https://github.com/Technigo/exercise-w11-styled-components/blob/main/src/finished-styles-regular-css.css)
 
+- Logos, imgs and videos are all fetched from the web, you can find these links inside this [json file](https://github.com/Technigo/exercise-w11-styled-components/blob/main/src/assets/images-videos.json)
+
 <img src="/src/assets/ra-technigo-screenshot.png" alt="Boiler Plate">
