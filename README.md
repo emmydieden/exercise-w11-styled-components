@@ -39,7 +39,7 @@ npm i && code . && npm run dev
 2.  Usage in Project: After installation, you can start using it in your React components by importing:
 
 ```bash
-import styled from 'styled-components;
+import styled from 'styled-components';
 ```
 
 ## Landing Page Demo
